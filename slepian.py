@@ -9,9 +9,6 @@ p = sp.symbols(r'\phi', real=True, nonnegative=True) #[0,2π)
 l = sp.symbols('l', real=True, nonnegative=True)
 m = sp.symbols('m', real=True, integer=True)
 
-lp = sp.symbols('l\'', real=True, nonnegative=True)
-mp = sp.symbols('m\'', real=True, integer=True)
-
 def fixIndex(l,m):
     return (l+1)**2-l+m-1
 
